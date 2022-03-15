@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', Arial;
+}
+
+/* This is for the Header */
+
+.container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.header .logo {
+    font-size: x-large;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header .links {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
