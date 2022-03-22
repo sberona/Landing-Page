@@ -49,6 +49,8 @@ body {
 }
 
 .header .container {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #1F2937;
     padding: 90px;
 }
@@ -87,6 +89,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -133,4 +136,32 @@ h2 {
 
 .box:nth-child(4) .card-image {
     background-image: url(images/mountains.jpg);
+}
+
+/* Quote Section */
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.quote-container {
+    width: 650px;  
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #1F2937;
 }
