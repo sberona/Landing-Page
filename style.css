@@ -112,7 +112,7 @@ body {
     background-size: cover;
 }
 
-h2 {
+.boxes h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,4 +164,32 @@ h2 {
     font-size: 20px;
     font-weight: bolder;
     color: #1F2937;
+}
+
+/* Modal Section */
+
+.modal {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.modal-container {
+    background-color: #3882F6;
+    padding: 50px 160px;
+    display: flex;
+    gap: 120px;
+    border-radius: 10px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 0 24px;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    font-weight: bold;
+    font-size: 15px;
 }
