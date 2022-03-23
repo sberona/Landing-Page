@@ -10,6 +10,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /* This is for the Navbar */
 
 .container {
@@ -81,7 +85,7 @@ body {
 /* Boxes Section */
 
 .boxes {
-    margin: 70px;
+    margin: 50px;
 }
 
 .card-container {
@@ -116,7 +120,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 28px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -150,7 +154,7 @@ body {
 }
 
 .quote-container {
-    width: 650px;  
+    width: 700px;  
 }
 
 .quote-text {
@@ -169,7 +173,7 @@ body {
 /* Modal Section */
 
 .modal {
-    height: 300px;
+    height: 340px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,3 +197,16 @@ body {
     font-weight: bold;
     font-size: 15px;
 }
+
+/* Footer Section */
+
+.footer {
+    height: 105px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
